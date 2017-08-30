@@ -1,0 +1,145 @@
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.block {
+	width: 100%;
+	height: 577px;
+
+	text-align: center;
+}
+
+.navblock {
+	background-image: url("headbg.jpg");
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+.logo {
+	position: relative;
+	top: 210.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	font-size: 100px;
+	font-family: 'Oswald', sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	cursor: pointer;
+}
+.navcontainer {
+	position: absolute;
+	top: 510px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	color: white;
+	font-size: 25px;
+	font-family: 'Abel', sans-serif;
+
+	margin: auto;
+}
+
+.nav {
+	color: white;
+	font-size: 25px;
+
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.nav:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.introcontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.text1 {
+	font-family: 'oswald', sans-serif;
+	font-size: 75px;
+	color: black;
+}
+
+
+.content {
+	font-family: 'Playfair display';
+	font-size: 30px;
+	color: gray;
+}
+
+.aboutcontainer {
+	position: relative;
+	top: 50.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 500px;
+	width: 80%;
+}
+
+.picofus {
+	background-image: url("pictureofus.jpg");
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+
+}
+
+.textonpicofus {
+	position: relative;
+	top: 210.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	font-family: 'Playfair display';
+	font-size: 50px;
+	color: white;
+	font-style: italic;
+}
+
+.button {
+	color: black;
+}
+
+.button:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
