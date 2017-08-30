@@ -143,3 +143,28 @@ a:hover {
 	cursor: pointer;
 	text-decoration: underline;
 }
+
+.foodcontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.foodbg {
+	background-image: url("foodbg.jpg");
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+
+}
