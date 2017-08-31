@@ -123,7 +123,7 @@ a:hover {
 
 .textonpicofus {
 	position: relative;
-	top: 210.5px;
+	top: 240.5px;
 	bottom: 0;
 	left: 0;
 	right: 0;
@@ -166,5 +166,39 @@ a:hover {
 	-o-background-size: cover;
 	background-size: cover;
 	color: white;
+
+}
+
+.storycontainer {
+	position: relative;
+	top: 140.5px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	margin: auto;
+	height: 300px;
+	width: 80%;
+	background-color: white;
+}
+
+.storybg {
+	background-image: url("twins.jpg");
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: white;
+}
+
+.buttoncontent {
+	color: black;
+}
+
+.button:hover {
+	cursor: pointer;
+	text-decoration: underline;
 
 }
